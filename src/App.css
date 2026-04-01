@@ -1,0 +1,65 @@
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CENTER BOX */
+.center-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* INPUT */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* DASHBOARD */
+.dashboard {
+  width: 90%;
+  max-width: 1000px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+}
