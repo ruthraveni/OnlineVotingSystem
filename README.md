@@ -4,9 +4,14 @@ A secure and user-friendly Online Voting System built with MERN stack (MongoDB, 
 
 Features
 User Registration & Login: Users can create accounts and securely log in.
+
 Admin Panel: Admins can create elections, add candidates, and view results.
+
+
 Voting: Authenticated users can cast votes only once per election.
+
 Real-Time Results: Display live voting results after election ends.
+
 Secure: Passwords are hashed using bcryptjs for security.
 
 
